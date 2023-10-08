@@ -1,50 +1,43 @@
 # AgroChain
 
-This repository contains the code for an Agricultural Supply Chain Dapp With Micro-Finance functionality, coded using **Truffle** and **Solidity**. The backend blockchain is a private Ethereum network setup using **Geth(go-ethereum)** and the interactions are made possible by **Web3** javascript library.
+This repository hosts a Dapp (Decentralized Application) focused on Agricultural Supply Chain with integrated Micro-Finance features. The code is written in Truffle and Solidity. The underlying blockchain is a private Ethereum network established using Geth (go-ethereum), and the interactions are facilitated through the Web3 JavaScript library.
+## problems to be solved
+The Agricultural Supply Chain system aims to trace a farm product's journey from the farmer to the consumer. In developing countries, farmers heavily rely on bank loans, which often leads to crippling debt and unstable agricultural production. Micro-finance presents a solution to alleviate this debt burden.
 
-## What problems are we solving?
+In the context of the agro-market, recent incidents of farmer suicides highlight the pressing issues they face. With a growing population, there's increasing pressure on land for housing and industrial purposes, reducing available fertile land for farming. This puts a higher demand on farmers to produce more, yet they grapple with challenges such as:
 
-An Agricultural Supply Chain tracks a farm product from the farmer to the consumer. Farmers in developing countries are heavily dependent on bank loans. Due to this heavy debt , farmers can't maintain a steady production of agriculture. Micro-finance can help these farmers out of debt.
+1. Difficulty in securing initial investments for field setup due to high bank interest rates.
+2. Struggles to obtain fair prices for their produce due to middlemen's involvement in the market.
+3. Lack of access to market trends and customer preferences, with middlemen acting as intermediaries.
+4. Inefficient supply chain, storage, and transportation leading to crop deterioration.
 
-### Agro-market
+Customers, on the other hand, are concerned about the high prices of commodities and the quality of produce. They often have to buy whatever is available in the market at prices set by sellers. Unscrupulous practices like black marketing, hoarding, and adulteration further inflate prices. Despite the increasing demand for organic products, there's a lack of a robust system to trace the stages of organic cultivation and verify authenticity. The main challenge in agro-markets lies in the significant 'disconnect' between farmers and consumers.
 
-In the recent past, we have read many incidents regarding the farmer suicides due to debts and poor yield from farming. For a country like India, with the rise in population, dependency over the land for building houses and industrial areas is increasing rapidly. The fertile land for farming is dwindling and more yields have to be produced to satisfy the need of the country. Even though the demand increase, the farmers are suffering from some major issues like : 
-
-i.	Raising the initial investment for setting up the field due to high bank interest rates.
-
-ii.	Fetch reasonable prices for their produce due to the intervention of middlemen in market.
-
-iii.	Analyzing market trends and customer needs. Currently the farmer and customer are completely separated in the market by the middlemen.
-
-iv.	Inefficient supply chain and issues in storage and transportation, leading to deterioration of crops.
-
-Similarly, the customers are also worried about the high price of commodities as well as the quality of produce. They are forced to purchase whatever is available in the market at the price set by the seller. The ill practices of Black marketing, hoarding, adulteration, etc., carried out by the middle man further increases the prices for the farm products. Even though the demand for organic products is increasing, there is lack of mechanism for tracing the stages of organic cultivation and ensure authenticity.
-The biggest challenge in the agro-markets is the ‘disconnect’ between the farmers and the consumers.
 
 
 ## Our solution to the problem:
+Agrochain is a blockchain-based marketplace that promotes cooperative farming between farmers and consumers. Farmers can list their crops and expected yields on a public ledger, allowing consumers to assess their credibility based on previous cultivation and supply records. This establishes a transparent and tamper-proof digital market for farm products. Through consensus, consumers can fund individual crops or fields and receive a share of the yield or profit.
 
-**Agrochain**, is a  blockchain based transparent market place where the farmers and consumers could implement a co-operative farming method. Here, the farmers can list the potential crops and the expected yield on his farm on the distributed public ledger. The consumers can view the details and check for the farmer credibility based on the previous cultivation and supply. This creates a transparent and tamper-proof digital market platform for farm products. Thus an agreement (consensus) can be formed between farmer and consumer, such that the consumer can fund individual crops or a field and can acquire or the yield from the farm or the profit percentage of its market value. There will be a rating mechanism to build the credibility of farmer and consumer based on the previous experiences in the agromarket.
+Key advantages include:
 
-The important advantages are:
+1. Farmers can bypass the need for bank loans, as consumers can provide funding at zero interest.
 
-1.	The farmer does not have to wait for bank loan or other lending mechanisms to raise the initial investment. The consumers could provide the fund with zero interest.
+2. Consumers have access to high-quality products at lower rates, supporting crops from their early stages of cultivation.
 
-2.	The consumers could get quality products at cheaper rates as they are funding the crops/fields right from the time of cultivation. 
+3. Even small-scale and household farmers can sell their products and achieve better profits.
 
-3.	No need to have huge farmlands. Even the small scale farmers and household farmers can also sell their products and yield better profit.
+4. A streamlined supply chain is ensured with real-time updates on immutable ledgers, allowing customers to choose specific farmers for specific products.
 
-4.	An efficient supply chain can be ensured with point to point update over the immutable chains. Customers could choose specific farmers for specific products.
+5. Farmers can build consumer loyalty through quality products and specific farming practices, ultimately leading to increased profits.
 
-5.	The farmers can build consumer loyalty based on the quality of product and type of farming, which could eventually yield him better profits.
+6. Low-income consumers can fund crops based on their needs, avoiding market price fluctuations.
 
-6.	Even the low income group consumers can fund the crops based on their needs and can escape from the market fluctuations of the product prices.
+7. Organic farming and quality standards are upheld through regular inspections by relevant authorities, thanks to the transparency of the immutable ledger.
 
-7.	Organic farming and quality measurement can be assured with frequent quality checking by the concerned authorities. The immutable ledger ensures transparency and reduces the chances of fraud.
+8. Smart contracts provide a robust framework for resolving discrepancies arising from natural disasters, climate changes, or crop losses.
 
-8.	Smart contracts can provide a better agreement between the farmers and consumers in case of discrepancies arising with regard to natural calamities, climate changes or other crop loss situations
+In the end, Agrochain aims to create a decentralized agro-market where farmers can easily secure funding for cultivation while having committed customers for their produce. Consumers can ensure quality products at a lower cost by investing early in crops. Both parties stand to profit and foster a loyal environment for future cooperation. The best farmers will maximize their profits, and the most successful investors (consumers) will have access to high-quality food for their homes.
 
-Eventually, the Agrochain will build a decentralized agro-market where the farmers can easily raise fund for cultivation along with the customers in his hand for buying his produce. On the other hand the customers can ensure quality products at lesser price with an early investment on the crops. Both the customers and farmers could yield profit and build a loyal environment for future cooperation. The best farmer will get the maximum profit on the produce and the best investor (consumer) can ensure good quality food for his home.
 
 
 ![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/Farmer%20Registration%20Page.PNG?raw=true "Farmer Registration")
@@ -71,16 +64,8 @@ This is the customer page where the customer can check the customer details and 
 
 The micro-finance form enables any user to fund a farmer. The funding is done by providing the farmers public id, the lot number of the product and the amount.
 
-# System Architecture
-
-
-![Alt text](https://github.com/nikhilvc1990/AgriChain/blob/master/screenshots/AgriChain.jpg?raw=true "Flow Chart")
 
 
 
-# About Us
 
-We are a group of researchers based at Indian Institute Of Information Technology and Management - Kerala
-
-Website/Contact : http://agrochain.in/
 
